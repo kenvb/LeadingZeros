@@ -1,0 +1,9 @@
+# LeadingZeros
+# Number generator with leading zero's
+$a=0 .. 99999
+$b="FLG-"
+foreach ($i in $a)
+    { 
+    $LN= "{0:D5}" -f $i 
+    $b+$LN >> C:\users\KenVB\Desktop\Leading.txt
+    }
