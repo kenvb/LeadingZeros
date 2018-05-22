@@ -4,5 +4,5 @@ $b="FLG-"
 foreach ($i in $a)
     { 
     $LN= "{0:D5}" -f $i 
-    $b+$LN | Out-File C:\Users\Kenmo\Desktop\leadingzerosutf8.txt -Append -Encoding utf8
+    $b+$LN | Out-File C:\Users\KenVB\Desktop\leadingzerosutf8.txt -Append -Encoding utf8
     }
